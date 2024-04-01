@@ -47,7 +47,7 @@ struct OptionsIMU {
 
   /// rostopic to subscribe
   std::string topic;
-
+  //*连续时间噪声
   /// IMU noise (gyroscope and accelerometer)
   /// Gyroscope white noise (rad/s/sqrt(hz))
   double sigma_w = 1.6968e-04;
